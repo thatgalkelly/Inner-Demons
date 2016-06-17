@@ -1,0 +1,37 @@
+
+@import "bourbon";
+
+@import "variables";
+@import "base/base";
+
+@import "layout";
+@import "syntax-highlighting";
+
+.page-content,
+.post-item,
+.post-content {
+  text-align: justify;
+}
+
+em {
+  font-style: italic;
+}
+
+strong, b {
+   font-weight: bold;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
